@@ -12,6 +12,9 @@ license = { text = "MIT" }
 authors = [{ name = "ChatReview" }]
 dependencies = []
 
+[project.scripts]
+chatreview = "chatreview.cli:main"
+
 [project.optional-dependencies]
 dev = [
   "pytest>=8",
